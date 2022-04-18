@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Barcelona",
+        "price": "$150/day",
+        "description": "Guide to visit awesome places of Barcelona city.",
+        "img": "https://i.ibb.co/44XvC9S/barcelona.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Paris",
+        "price": "$200/day",
+        "description": "Guide to visit awesome places of Paris city.",
+        "img": "https://i.ibb.co/kQMCc8R/paris.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Rome",
+        "price": "$100/day",
+        "description": "Guide to visit awesome places of Rome city.",
+        "img": "https://i.ibb.co/V96hDyw/rome.jpg"
+    }
+]

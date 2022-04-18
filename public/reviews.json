@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Julian Wan",
+        "comment": "You should improve.",
+        "rating": "⭐⭐⭐",
+        "img": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61"
+    },
+    {
+        "id": 2,
+        "name": "Seth Doyle",
+        "comment": "Very good.",
+        "rating": "⭐⭐⭐⭐",
+        "img": "https://images.unsplash.com/photo-1485206412256-701ccc5b93ca"
+    },
+    {
+        "id": 3,
+        "name": "Jonathan Cooper",
+        "comment": "I am satisfied.",
+        "rating": "⭐⭐⭐⭐",
+        "img": "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158"
+    }
+]
