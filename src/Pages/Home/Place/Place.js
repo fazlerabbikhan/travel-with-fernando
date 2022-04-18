@@ -5,7 +5,7 @@ const Place = ({ place }) => {
     const { name, price, description, img } = place;
 
     return (
-        <div className='col-12 col-md-6 col-lg-4'>
+        <div className='g-2 col-12 col-md-6 col-lg-4'>
             <div class='card mx-3' style={{ width: '20rem' }}>
                 <img src={img} class='card-img-top' alt='...' />
                 <div class='card-body'>
