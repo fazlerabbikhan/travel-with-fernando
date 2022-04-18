@@ -12,7 +12,7 @@ const Places = () => {
     }, [])
 
     return (
-        <div id='places' className='container'>
+        <div className='container'>
             <h2 className='text-primary text-center fw-bold mt-5'>Places to Visit</h2>
             <div className='row'>
                 {

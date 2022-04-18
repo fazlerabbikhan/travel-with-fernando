@@ -11,12 +11,10 @@ const Header = () => {
                 <Navbar.Collapse id='responsive-navbar-nav'>
                     <Nav className='me-auto fw-bold'>
                         <Nav.Link as={Link} to='/home'>Home</Nav.Link>
-                        <Nav.Link as={Link} to='/home#places'>Places</Nav.Link>
-                        <Nav.Link as={Link} to='/home#reviews'>Reviews</Nav.Link>
-                    </Nav>
-                    <Nav className='fw-bold'>
                         <Nav.Link as={Link} to='/blogs'>Blogs</Nav.Link>
                         <Nav.Link as={Link} to='/about'>About</Nav.Link>
+                    </Nav>
+                    <Nav className='fw-bold'>
                         <Nav.Link as={Link} to='/login'>Login</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
