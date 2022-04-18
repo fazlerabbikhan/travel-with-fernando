@@ -23,7 +23,7 @@ const Banner = () => {
                     />
                     <Carousel.Caption>
                         <h3>Barcelona</h3>
-                        <p>The most beautiful city of Spain</p>
+                        <h5>The most beautiful city of Spain.</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -35,7 +35,7 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <h3>Paris</h3>
-                        <p>The most beautiful city of France.</p>
+                        <h5>The most beautiful city of France.</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -47,7 +47,7 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <h3>Rome</h3>
-                        <p>The most beautiful city of Italy.</p>
+                        <h5>The most beautiful city of Italy.</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

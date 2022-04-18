@@ -1,8 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Place = ({ place }) => {
 
-    const { name, price, description, img } = place;
+    const { id, name, price, description, img } = place;
+    const navigate = useNavigate();
+
+    const navigateToPlaceDetail = id => {
+        navigate(`/place/${id}`)
+    }
 
     return (
         <div className='g-2 col-12 col-md-6 col-lg-4'>
@@ -13,7 +19,7 @@ const Place = ({ place }) => {
                     <h5 class='card-text'>Price: {price}</h5>
                     <h6 class='card-text'>Description: {description}</h6>
                     <div className='d-flex justify-content-center'>
-                        <a href='#' class='btn btn-primary'>Checkout</a>
+                        <button onClick={() => navigateToPlaceDetail(id)} className='btn btn-primary'>Checkout</button>
                     </div>
                 </div>
             </div>
