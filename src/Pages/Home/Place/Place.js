@@ -6,8 +6,8 @@ const Place = ({ place }) => {
     const { id, name, price, description, img } = place;
     const navigate = useNavigate();
 
-    const navigateToPlaceDetail = id => {
-        navigate(`/place/${id}`)
+    const navigateToCheckout = id => {
+        navigate('/checkout')
     }
 
     return (
@@ -19,7 +19,7 @@ const Place = ({ place }) => {
                     <h5 class='card-text'>Price: {price}</h5>
                     <h6 class='card-text'>Description: {description}</h6>
                     <div className='d-flex justify-content-center'>
-                        <button onClick={() => navigateToPlaceDetail(id)} className='btn btn-primary'>Checkout</button>
+                        <button onClick={() => navigateToCheckout(id)} className='btn btn-primary'>Checkout</button>
                     </div>
                 </div>
             </div>
